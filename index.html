@@ -34,20 +34,38 @@
             border-radius: 100%;
         }
 
-        .center{
+        .center {
             display: block;
             margin-left: auto;
             margin-right: auto;
             width: 50%;
         }
 
-        .button{
+        .button {
             background-color: #11a36a;
             color: white;
             text-decoration: none;
             line-height: 55px;
             padding: 10px;
             text-decoration: underline;
+        }
+
+        #nome {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #descricao {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .underlined {
+            text-decoration: underline;
+        }
+        #listOne, #listThree, #listFive {
+            font-size: 18px;
+        }
+        #listTwo, #listFour, #listSix {
+            font-size: 15px;
         }
     </style>
 </head>
@@ -89,11 +107,12 @@
     <hr>
     <h3>Descrição</h3>
     <p id="descricao">
-        Sou brasileiro, residente na cidade de <strong>Belo Horizonte, Minas Gerais</strong>.
+        Sou brasileiro, residente na cidade de <strong class="underlined">Belo Horizonte, Minas Gerais</strong>.
         <br>
         Sou estudante aplicado de Programação e Direito.
         <br>
-        Tenho curso Técnico em Informática pelo <strong>COTEMIG</strong> e, atualmente, encontro-me cursando a Trybe,
+        Tenho curso Técnico em Informática pelo <strong class="underlined">COTEMIG</strong> e, atualmente, encontro-me
+        cursando a Trybe,
         escola de
         programação na qual aprendemos e colocamos em prática diversas ferramentas destinadas ao desenvolvimento WEB
         full-stack, bem como o 9º período de Direito.
@@ -103,19 +122,20 @@
     <h3>Lista de habilidades:</h3>
     <br>
     <ul id="habilidades">
-        <li><strong>Fluente em inglês</strong></li>
-        <li>JavaScript</li>
-        <li>Trabalho em equipe</li>
-        <li>Liderança</li>
-        <li>Resolução de conflitos</li>
-        <li>Direito</li>
+        <li id="listOne"><strong>Fluente em inglês</strong></li>
+        <li id="listTwo">JavaScript</li>
+        <li id="listThree">Trabalho em equipe</li>
+        <li id="listFour">Liderança</li>
+        <li id="listFive">Resolução de conflitos</li>
+        <li id="listSix">Direito</li>
     </ul>
     <br><br><br><br><br>
     <hr><br><br><br><br><br>
-        <a class="button" href="#foto">Link para foto.</a>
+    <a class="button" href="#foto">Link para foto.</a>
     <br><br><br><br><br>
     <hr><br><br><br><br><br>
-        <a class="button" href="https://www.youtube.com/c/LucasMontano" target="_blank">Link para um canal que acompanho.</a>
+    <a class="button" href="https://www.youtube.com/c/LucasMontano" target="_blank">Link para um canal que
+        acompanho.</a>
     <br><br><br><br><br>
 </body>
 
