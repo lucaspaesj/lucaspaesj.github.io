@@ -1,0 +1,64 @@
+h3 {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 55px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+h1 {
+    color: green;
+    line-height: 55px;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(210, 237, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#foto {
+    border-radius: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.button {
+    background-color: #11a36a;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#nome {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#descricao {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+#listOne, #listThree, #listFive {
+    font-size: 18px;
+}
+#listTwo, #listFour, #listSix {
+    font-size: 15px;
+}
+
+.divDescricao {
+
+}
