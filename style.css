@@ -23,13 +23,8 @@ body {
 
 #foto {
     border-radius: 100%;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    float: left;
+    padding: 30px;
 }
 
 .button {
@@ -43,10 +38,14 @@ body {
 
 #nome {
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
 }
 
 #descricao {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 130px 50px 100px 50px;
+    max-width: 1000px;
 }
 
 .underlined {
@@ -54,11 +53,12 @@ body {
 }
 #listOne, #listThree, #listFive {
     font-size: 18px;
+    color: red;
 }
 #listTwo, #listFour, #listSix {
     font-size: 15px;
 }
 
-.divDescricao {
-
+.imgContainer {
+    height: 360px;
 }
